@@ -1,0 +1,32 @@
+:root {
+    /* 01 TYPOGRAPHY  */
+    --font-family-main: "Poppins", sans-serif;
+  
+    /* 02 BACKGROUND COLORS */
+  
+    /* 03 TEXT COLORS */
+  
+    /* 04 BOX SHADOWS */
+    --navigation-box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 24px 0px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li,
+  a {
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-family-main);
+  }
+
+  
+  
