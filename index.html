@@ -41,7 +41,8 @@
 
 <body>
 
-    <!-- NAVIGATION START ==================================================================================== -->
+    <!-- NAVIGATION START -->
+    <!--  ==================================================================================== -->
     <header>
 
         <nav>
@@ -113,12 +114,13 @@
         </div> -->
     </header>
 
-    <!-- MAIN CONTENT ==================================================================================== -->
+    <!-- MAIN CONTENT START -->
+    <!-- ==================================================================================== -->
     <main>
 
+        <!-- HERO ==================================================================================== -->
         <section class="hero">
-
-            <div class="hero-container">
+            <div class="container">
                 <div class="hero-content">
 
                     <h1 class="hero__title">
@@ -130,22 +132,148 @@
                     </p>
 
                     <form class="search-bar">
-                        <input type="search" id="site-search" name="search-bar" placeholder="Something goes here...">
+                        <input type="text" id="site-search" name="search-bar" placeholder="Something goes here...">
                         <button class="button-default" id="search-button">
                             <i class="fa-solid fa-magnifying-glass"></i>
-                            
+
                         </button>
                     </form>
                 </div>
 
                 <img class="hero__image" src="/assets/images/hero-image.webp" alt="Hero Image">
+            </div>
+        </section>
+
+        <!-- PLACES CARDS ==================================================================================== -->
+        <section class="places">
+            <div class="container">
+                <h1 class="places__title">
+                    Popular Choices
+                </h1>
+            </div>
+
+            <div class="container cards">
+                <div class="cards-flex">
+                    <a href="#">
+                        <div class="card card--one">
+                            <h3 class="card__city">
+                                Atlanta
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="card card--two">
+                            <h3 class="card__city">
+                                Miami
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="cards-flex">
+                    <a href="#">
+                        <div class="card card--three">
+                            <h3 class="card__city">
+                                Sans Fransico
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="card card--four">
+                            <h3 class="card__city">
+                                Charlotte
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- BENEFIT ==================================================================================== -->
+        <section class="benefit">
+            <div class="container">
+                <div class="benefit-content">
+                    <h1 class="benefit__title">
+                        Search info on cities without the headache.
+                    </h1>
+                    <p class="benefit__subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <a href="#" class="button-default benefit__button">
+                        Explore
+                    </a>
+                </div>
+
+                <img class="benefit__image" src="assets/images/m1-floating-ipad.png" alt="tablet showcasing web app">
+
+            </div>
+
+        </section>
+
+        <!-- FEATURES ==================================================================================== -->
+        <section class="feature">
+            <div class="container">
+                <h1 class="feature__title">
+                    Only get recommend the best of what a place provides
+                </h1>
+            </div>
+
+            <div class="container">
+                <div class="feat-body">
+                    <img class="feat__image" src="/assets/images/feature-image-1.webp" alt="#">
+
+                    <div class="feat-content">
+                        <h3 class="feat-content__title">
+                            Medium Text Size
+                        </h3>
+                        <p class="feat-content__copy">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feat-body feat-body--reverse">
+                    <img class="feat__image" src="/assets/images/feature-image-2.webp" alt="#">
+
+                    <div class="feat-content">
+                        <h3 class="feat-content__title">
+                            Medium Text Size
+                        </h3>
+                        <p class="feat-content__copy">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feat-body">
+                    <img class="feat__image" src="/assets/images/feature-image-3.webp" alt="#">
+
+                    <div class="feat-content">
+                        <h3 class="feat-content__title">
+                            Medium Text Size
+                        </h3>
+                        <p class="feat-content__copy">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </section>
 
     </main>
 
-    <!-- FOOTER START ========================================================================================== -->
+    <!-- FOOTER START -->
+    <!-- ========================================================================================== -->
     <footer>
 
     </footer>
